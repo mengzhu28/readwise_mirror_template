@@ -1,0 +1,3 @@
+{%- if note == '.h1' %}# {{text}}{%- elif note == '.h2' %}## {{text}}{%- elif note == '.h3' %}### {{text}}{% else %}{{text}} {{tags}} [Link](https://readwise.io/open/{{id}}) ^rw{{id}}{% endif %}{% if note %}
+Note: {{ note }}{% endif %}
+- - -
